@@ -1,0 +1,10 @@
+POST http://localhost:3000/friends HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Kevin Neves"
+}
+
+###
+GET http://localhost:3000/friends HTTP/1.1
